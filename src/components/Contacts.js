@@ -58,7 +58,7 @@ const Contacts = () => {
                     fullWidth={true} label="Email Address" variant="outlined" inputProps={{style: {color: "white"}}} margin="dense" size="medium"
                     /> <br />
                     <InputField 
-                    fullWidth={true} label="Company Name/Organisation" variant="outlined" inputProps={{style: {color: "white"}}} margin="dense" size="medium"
+                    fullWidth={true} label="Company Name" variant="outlined" inputProps={{style: {color: "white"}}} margin="dense" size="medium"
                     /> <br />
                     <Button className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon/>}>
                         Contact Me

@@ -61,7 +61,7 @@ const menuItems = [
     },
     {
         listIcon: <ContactMail />,
-        listText: "Contacts",
+        listText: "Contact Me",
         listPath: "/contacts"
     }
 ] 
@@ -103,7 +103,7 @@ const menuItems = [
                         <ArrowBack style={{ color: "tomato" }} />
                     </IconButton>
                     <Typography variant="h5" style={{ color: "tan" }}>
-                        Portfolio
+                        EMMANUEL
                     </Typography>
                     <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)} >
                         {sideList("right")}

@@ -93,7 +93,7 @@ const useStyles = makeStyles(theme=>({
         }
     },
     heading: {
-        color: "tomato",
+        color: "white",
         padding: "3rem 0",
         textTransform: "uppercase"
     },
@@ -111,60 +111,58 @@ const Resume = () => {
             <Navbar />
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
-                    Working experience
+                    About Me
                 </Typography>
-                <Box component="div" className={classes.timeLine}>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYear}`}>2020</Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            web design
-                        </Typography>
+                <Box component="div">
+                    <Box component="div">
+
                         <Typography variant="body1" align="center" style={{color: "tomato"}}>
-                           Company name where worked
+                        I am Emmanuel Ukhueleigbe, a creative and passionate software developer and UI enthusiast who focuses on building products that solves real problems through enjoyable and meaningful experiences. I specialize in turning functional user interface designs into real life applications. I am also a fast and open minded learner.
                         </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                           I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping
-                        </Typography>
-                    </Box>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYear}`}>2021</Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            html & css
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
-                           Company name where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                           I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping
-                        </Typography> 
-                    </Box>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYear}`}>2022</Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                           Javascript
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
-                           Company name where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                           I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping
-                        </Typography>
-                    </Box>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineYear}`}>2023</Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading}>
-                            PHP
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
-                           Company name where worked
-                        </Typography>
-                        <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                           I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping I am sleeping
-                        </Typography>
+                        
                     </Box>
                     
                 </Box>
                 
+            </Box>
+            <Box component="header" className={classes.mainContainer}>
+                <Typography variant="h4" align="center" className={classes.heading}>
+                    My Skills & Technologies
+                </Typography>
+                    <Box component="div">
+
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            Angular
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            React JS
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            Javascript
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            PHP
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            HMTL5
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            CSS3
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            SASS
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            GIT/GITHUB
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            Adobe XD
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color: "tomato"}}>
+                            Figma
+                        </Typography>
+                        
+                    </Box>
             </Box>
         </>
     )

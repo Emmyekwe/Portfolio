@@ -12,10 +12,10 @@ import {
     Typography
 } from "@material-ui/core";
 import Navbar from './Navbar';
-import project1 from "../img/html-css-javascript-lg.jpg";
-import project2 from "../img/javascript-fullstack.jpg";
-import project3 from "../img/mern-stack.jpg";
-import project4 from "../img/react-redux.jpg";
+import project1 from "../img/1.png";
+import project2 from "../img/3.png";
+import project3 from "../img/4.png";
+import project4 from "../img/5.png";
 
 
 
@@ -42,25 +42,21 @@ const Portfolio = () => {
                 <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
                     <CardActionArea>
-                        <CardMedia component="img" alt="Project 1" height="140" image={project1} />
+                        <CardMedia component="img" alt="Project 1" height="200" image={project1} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
-                                Project 1
+                                Portfolio Website
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
-                                This is a bad sale  This is a bad sale  This is a bad sale This is a bad sale 
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
+                                This is my Portfolio site created with React JS and CSS3.
                             </Typography>
                         </CardContent>
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                                Share
+                            https://eager-saha-668b79.netlify.app/
                             </Button>
-                            <Button size="small" color="primary">
-                                Live Demo
-                            </Button>
+                            
                         </CardActions>
                     
                 </Card>
@@ -70,24 +66,19 @@ const Portfolio = () => {
                 <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
                     <CardActionArea>
-                        <CardMedia component="img" alt="Project 2" height="140" image={project2} />
+                        <CardMedia component="img" alt="Project 2" height="200" image={project2} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
-                                Project 2
+                               Lavish
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
-                                This is a bad sale  This is a bad sale  This is a bad sale This is a bad sale 
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
+                                Lavish is a WiFi service provider website created with React JS and CSS3. 
                             </Typography>
                         </CardContent>
                         </CardActionArea>
                         <CardActions>
                             <Button size="small" color="primary">
-                                Share
-                            </Button>
-                            <Button size="small" color="primary">
-                                Live Demo
+                            https://emmyekwe.github.io/Zeet/
                             </Button>
                         </CardActions>
                     
@@ -98,26 +89,16 @@ const Portfolio = () => {
             <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
                     <CardActionArea>
-                        <CardMedia component="img" alt="Project 3" height="140" image={project3} />
+                        <CardMedia component="img" alt="Project 3" height="200" image={project3} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
-                                Project 3
+                                Soundwave
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
-                                This is a bad sale  This is a bad sale  This is a bad sale This is a bad sale 
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
+                                Soundwave is a website for streaming songs. This is a design made with Figma.
                             </Typography>
                         </CardContent>
                         </CardActionArea>
-                        <CardActions>
-                            <Button size="small" color="primary">
-                                Share
-                            </Button>
-                            <Button size="small" color="primary">
-                                Live Demo
-                            </Button>
-                        </CardActions>
                    
                 </Card>
             </Grid>
@@ -126,26 +107,17 @@ const Portfolio = () => {
             <Grid item xs={12} sm={8} md={6}>
                 <Card className={classes.cardContainer} >
                     <CardActionArea>
-                        <CardMedia component="img" alt="Project 4" height="140" image={project4} />
+                        <CardMedia component="img" alt="Project 4" height="200" image={project4} />
                         <CardContent>
                             <Typography gutterBottom variant="h5">
-                                Project 4
+                                Lekki Gym
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
-                                This is a bad sale  This is a bad sale  This is a bad sale This is a bad sale 
-                                This is a bad sale This is a bad sale This is a bad sale This is a bad sale 
+                                This is a mobile app design for Lekki Gym designed with Adobe XD.
                             </Typography>
                         </CardContent>
                         </CardActionArea>
-                        <CardActions>
-                            <Button size="small" color="primary">
-                                Share
-                            </Button>
-                            <Button size="small" color="primary">
-                                Live Demo
-                            </Button>
-                        </CardActions>
+                        
                     
                 </Card>
             </Grid>
